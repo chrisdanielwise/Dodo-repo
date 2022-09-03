@@ -1,0 +1,139 @@
+*{
+  margin: 5px;
+
+}
+body{
+    background-color: white;
+    margin:10px;
+   
+}
+.body{
+    background-color: hsl(34, 57%, 90%);
+}
+.logo{
+    text-shadow: 1px 1px 10px black;
+    color: white;
+    font-size:30px;
+    padding-right: 10px;
+    margin: 100px 1px;
+    align-items:center;
+    
+}
+.logo-div{
+    height: 80%;
+    padding-left:50px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+}
+.nav-links ul li{
+    text-align: initial;
+    margin: 5px 5px 50px 10px ;
+    font-size: 15px;
+    display:inline-block;
+    padding-right: 1px 20px;
+}
+
+ul{
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-right:70px;
+}
+a{
+    color: black;
+    border: none;
+}
+a:link{
+    text-decoration:none;
+}
+.start{
+    background-color:deeppink;
+    border-radius: 15px;
+    border: 1px solid red;
+    padding:12px;
+
+}
+.h1{
+    font-size: 50px;
+    background-repeat:no-repeat;
+    background-position: right;
+}
+section .h1{
+background-image: url( images/images2.png);
+background-position:right;
+padding: 50px 40px;
+font-size: 70px;
+background-size: contain;
+font-family:sans-serif;
+}
+.back-image{
+    font-size: small ;
+}
+#enrol{
+    border:1px solid none;
+    border-radius: 15px;
+    background-color:black;
+    color:white;
+    padding: 8px 20px;
+    font-size:10px;
+    margin:initial;
+}
+.mid-body{
+word-spacing: 100px;
+padding: 10px;
+font-weight:bold;
+padding-left:40px;
+}
+.mid-body2{
+    margin:10px;
+}
+.img{
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.img img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.img{
+    flex-basis: 31%;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    transition: 0.5s;
+    width: 150px;
+}
+.last-body{
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(11, 19%, 85%);
+    margin:auto;
+    margin: 50px 0 100px 0;
+    height: 100%;
+    padding-top:2em;
+
+}
+.child{
+    display: flex; 
+    padding-left:30px;   
+}
+.two{
+    margin-left:70px;
+}
+footer{
+    text-align:center;
+    font-size: 30px;
+    font-weight:bold;
+}
